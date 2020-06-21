@@ -5,6 +5,10 @@ import java.util.List;
 // Skeleton for the Binary search tree. Feel free to modify this class.
 public class BinarySearchTree {
 
+    private static Node root;
+
+
+
     public static BinarySearchTree build(List<Integer> elements) {
         // TODO construct a binary search tree here
         return null;
