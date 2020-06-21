@@ -11,6 +11,22 @@ class Node {
         left = null;
     }
 
+    public Node getLeft() {
+        return left;
+    }
+
+    public void setLeft(Node left) {
+        this.left = left;
+    }
+
+    public Node getRight() {
+        return right;
+    }
+
+    public void setRight(Node right) {
+        this.right = right;
+    }
+
     public void setKey(int key) {
         this.key = key;
     }
@@ -18,21 +34,4 @@ class Node {
     public int getKey() {
         return key;
     }
-
-    public void setLeft(Node left) {
-        this.left = left;
-    }
-
-    public Node getLeft() {
-        return left;
-    }
-
-    public void setRight(Node right ) {
-        this.right = right;
-    }
-
-    public Node getRight() {
-        return right;
-    }
-
 }
